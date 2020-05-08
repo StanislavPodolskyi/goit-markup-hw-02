@@ -1,5 +1,5 @@
 
-
+/* Common */
 :root {
     --primary-text-color: #757575;
     --primary-background-color: #FFFFFF;
@@ -19,7 +19,7 @@ h1, h2, h3 {
 }
 
 ul {
-
+    list-style: none;
 }
 
 .site-nav .link {
@@ -38,6 +38,40 @@ ul {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--title-text-color);
+}
+
+footer {
+    background-color: #2F303A;;
+}
+
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration-color: none;
+    text-decoration: none;
+}
+
+.footer-white-letters {
+    color: #FFFFFF;
+}
+
+.developer {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Studio */
 .solutions-title {
     color: var(--title-text-color);
 
@@ -51,5 +85,98 @@ ul {
     text-transform: uppercase;
 }
 
+button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
+button:hover,
+button:focus {
+    color: var(--accent-color);
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 700    ;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.our-activity {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.our-command {
+    background-color: #F5F4FA;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.speciality {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 
+
+/* Portfolio */
+
+
+
+.portfolio-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-item-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-item-job {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
